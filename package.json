@@ -1,5 +1,5 @@
 {
-  "name": "nest-keycloak-connect",
+  "name": "@smartface/nest-keycloak-connect",
   "version": "1.9.1",
   "description": "keycloak-nodejs-connect module for Nest",
   "author": "John Joshua Ferrer <johnjoshuaferrer@disroot.org>",
@@ -28,7 +28,7 @@
     "@nestjs/common": ">=6.0.0 <10.0.0",
     "@nestjs/core": ">=6.0.0 <10.0.0",
     "@nestjs/graphql": ">=6",
-    "keycloak-connect": ">=10.0.0 <21.0.0"
+    "@smartface/keycloak-connect": ">=10.0.0 <21.0.0"
   },
   "devDependencies": {
     "@nestjs/common": "^9.0.0",
