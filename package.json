@@ -58,5 +58,8 @@
     "@nestjs/graphql": {
       "optional": true
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
