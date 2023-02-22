@@ -186,6 +186,11 @@ export interface KeycloakConnectConfig extends NestKeycloakConfig {
    * ISS list.
    */
   issuers?: string[];
+
+  /**
+   * X-Forwarded-Headers for keycloak requests.
+   */
+  forwardedHeaders?: Record<string, string | number>;
 }
 
 /**
