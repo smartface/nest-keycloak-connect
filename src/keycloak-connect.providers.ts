@@ -1,6 +1,6 @@
 import { Logger, Provider } from '@nestjs/common';
 import * as fs from 'fs';
-import KeycloakConnect from 'keycloak-connect';
+import KeycloakConnect from '@smartface/keycloak-connect';
 import * as path from 'path';
 import {
   KEYCLOAK_CONNECT_OPTIONS,

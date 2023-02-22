@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@nestjs/common';
-import KeycloakConnect from 'keycloak-connect';
+import KeycloakConnect from '@smartface/keycloak-connect';
 import { KEYCLOAK_CONNECT_OPTIONS } from '../constants';
 import { KeycloakConnectOptions } from '../interface/keycloak-connect-options.interface';
 

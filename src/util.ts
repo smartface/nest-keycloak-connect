@@ -1,5 +1,5 @@
 import { ContextType, ExecutionContext } from '@nestjs/common';
-import KeycloakConnect from 'keycloak-connect';
+import KeycloakConnect from '@smartface/keycloak-connect';
 import { KeycloakConnectConfig } from './interface/keycloak-connect-options.interface';
 import { KeycloakMultiTenantService } from './services/keycloak-multitenant.service';
 

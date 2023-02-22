@@ -1,5 +1,5 @@
 import { SetMetadata } from '@nestjs/common';
-import * as KeycloakConnect from 'keycloak-connect';
+import * as KeycloakConnect from '@smartface/keycloak-connect';
 
 export const META_ENFORCER_OPTIONS = 'enforcer-options';
 
